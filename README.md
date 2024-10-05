@@ -20,7 +20,7 @@ Note that some versions of the above tools may be incompatible with each other, 
 
 Follow the next steps to clone and execute the project.
 
-##### 1. Clone the repository
+#### 1. Clone the repository
 For this step you need to have installed the [Git](https://git-scm.com/) tool.
 
 Now you need to initialize your local repo, so open a bash in the folder you are going to store the project and type the following commands:
@@ -29,13 +29,13 @@ Now you need to initialize your local repo, so open a bash in the folder you are
 
 `git clone https://github.com/MavapeGZ/HelloWorld-struts2.git` (Clones the repo)
 
-##### 2. Move to the directory
+#### 2. Move to the directory
 
 If you are not yet in the directory where you cloned the repo, move there:
 
 `cd HelloWorld-struts2`
 
-##### 3. Compile and clean the project using Maven
+#### 3. Compile and clean the project using Maven
 We need to compile the project in order to be able to run it later. 
 
 `mvn clean install`
@@ -48,7 +48,7 @@ If some errors are appearing in your bash, check the error and fix it.
 
 If you followed the steps and no errors showed on the screen, congratulations, you did it!
 
-##### 5. Access the website
+#### 5. Access the website
 Now, you should open your favourite browser and tipe the following URL:
 
 `http://localhost:8080/HelloWorld-struts2/`
@@ -56,13 +56,13 @@ Now, you should open your favourite browser and tipe the following URL:
 This is a connection on to your own PC in the 8080 port (the default one). If some error is on the screen, maybe you have this port not available.
 
 ## Description of the project
-##### Struts2 Action
+#### Struts2 Action
 The [HelloWorldAction.java](https://github.com/MavapeGZ/HelloWorld-struts2/blob/main/src/main/java/org/apache/struts/helloworld/action/HelloWorldAction.java) class handles the HTTP request and delegates the response to the view (JSP).
 
-##### JSP
+#### JSP
 The [HelloWorld.jsp](https://github.com/MavapeGZ/HelloWorld-struts2/blob/main/src/main/webapp/HelloWorld.jsp) file shows the stored message in the [MessageStore](https://github.com/MavapeGZ/HelloWorld-struts2/blob/main/src/main/java/org/apache/struts/helloworld/model/MessageStore.java) class.
 
-##### Configuration
+#### Configuration
 - [struts.xml](https://github.com/MavapeGZ/HelloWorld-struts2/blob/main/src/main/resources/struts.xml) contains the Struts2 configuration for actions and views.
 - [web.xml](https://github.com/MavapeGZ/HelloWorld-struts2/blob/main/src/main/webapp/WEB-INF/web.xml) contains the configuration of the servlet for Struts2 in the deployment descriptor.
 
