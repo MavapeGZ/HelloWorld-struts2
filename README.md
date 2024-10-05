@@ -53,7 +53,7 @@ Now, you should open your favourite browser and tipe the following URL:
 
 `http://localhost:8080/HelloWorld-struts2/`
 
-This is a connection on to your own PC in the 8080 port (the default one). If some error is on the screen, maybe you have this port not available.
+This is a connection on to your own machine in the 8080 port (the default one). If some error is on the screen, maybe you have this port not available.
 
 ## Description of the project
 #### Struts2 Action
